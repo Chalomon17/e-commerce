@@ -6,4 +6,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\msv.ecommerce.application\msv.ecommerce.application.csproj" />
+    <ProjectReference Include="..\msv.ecommerce.commmon\msv.ecommerce.commmon.csproj" />
+    <ProjectReference Include="..\msv.ecommerce.external\msv.ecommerce.external.csproj" />
+    <ProjectReference Include="..\msv.ecommerce.persistence\msv.ecommerce.persistence.csproj" />
+  </ItemGroup>
+
 </Project>
