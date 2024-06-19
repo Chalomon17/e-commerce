@@ -11,4 +11,9 @@
     <ProjectReference Include="..\msv.ecommerce.domain\msv.ecommerce.domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DataBase\" />
+    <Folder Include="Configuration\" />
+  </ItemGroup>
+
 </Project>
